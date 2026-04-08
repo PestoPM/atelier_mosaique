@@ -296,10 +296,10 @@
   }
 
   .card-name .type {
-    font-size: 0.82rem;
+    font-size: 0.95rem;
     color: var(--warm-gray);
     margin-bottom: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .price-block {
@@ -350,12 +350,17 @@
 
   .detail-row {
     display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    font-size: 0.88rem;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.9rem;
     color: var(--charcoal);
     font-weight: 300;
-    line-height: 1.4;
+    line-height: 1.5;
+  }
+
+  .detail-row:first-child {
+    font-weight: 500;
+    font-size: 0.95rem;
   }
 
   .detail-row svg {
@@ -397,9 +402,9 @@
   }
 
   .benefits p {
-    font-size: 0.85rem;
-    color: #5C4E2A;
-    line-height: 1.65;
+    font-size: 0.95rem;
+    color: var(--charcoal);
+    line-height: 1.7;
     font-weight: 400;
     font-style: italic;
     font-family: 'Cormorant Garamond', serif;
@@ -547,7 +552,7 @@
         </div>
         <div class="detail-row">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/></svg>
-          Matinée (9h30-13h) ou après-midi (13h45-17h45)
+          9h30-13h ou 13h45-17h45
         </div>
       </div>
       <div class="benefits">
